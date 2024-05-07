@@ -12,14 +12,12 @@ body {
 }
 
 #wrapper {
-    border: 1px red solid;
     width: 100%;
     display: flex;
     justify-content: center; /* Aligns content horizontally to the center */
 }
 
 .container {
-    border: 1px red solid;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(10, 1fr);
@@ -39,14 +37,12 @@ body {
     color: rgb(59, 59, 59);
 }
 .product img {
-    border: 1px red solid;
     width: 140px;
     position: relative;
     top: -86px;
     left: 132px;
 }
 .product p {
-    border: 1px red solid;
     width: fit-content;
 }
 
