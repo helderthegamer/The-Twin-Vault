@@ -26,7 +26,7 @@ function changePrice(id, action) {
     var currentPrice = parseFloat(priceElem.textContent.replace('Price: ', '').replace(' CHF', ''));
     var newPrice;
 
-    if (isNaN(currentPrice) || currentPrice === 0.00) {
+    if (isNaN(currentPrice)) {
         currentPrice = 1.00; // Set to 1.00 if it's NaN or 0.00
     }
 
